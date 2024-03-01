@@ -1,0 +1,131 @@
+
+.logo {
+    width: 200px; 
+    height: 200px;
+    display: block; 
+    margin: auto; 
+}
+
+.poster img {
+    width: 700px; 
+    height: 300px; 
+    border: 10px outset brown; 
+    border-radius: 22px;
+    display: block;
+    margin: 0 auto;
+   
+}
+
+@font-face {
+    font-family: 'Breaking Bad';
+    src: url(font/BreakingBad.ttf) format(truetype); 
+}
+
+.texto_index {
+    color: white;
+    font-family: 'Breaking Bad';
+    margin-top: 20px;
+    padding: 0 20px;
+    text-align: center;
+    font-size: 32px;
+}
+
+#fondo {
+    width: 100%;
+    height: 100vh;
+    background-image: url("IMG/fondo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.cabecera {  
+    display: block; 
+    margin: auto;
+    padding: 35px
+}
+
+.tabla1 {
+    width: auto;
+    height: auto;
+    margin: auto;
+    background-color: rgb(43, 44, 36);
+    text-align: center;
+    font-size: 10px;
+    margin-bottom: 35px;
+}
+
+.tabla1 td   {
+    width: 70px;
+    height: 60px;
+} 
+
+#hank {
+    background-image: url("IMG/Tabla Periódica/hankschrader.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.color1 {
+    background-color: rgb(183, 218, 38);
+}
+
+.color2 {
+    background-color: rgb(130, 143, 74);
+}
+
+.color3 {
+    background-color: rgb(197, 224, 83);
+}
+
+.color4 {
+    background-color: rgb(137, 164, 25);
+}
+
+.color5 {
+    background-color: rgb(99, 113, 38);
+}
+
+.color6 {
+    background-color: rgb(240, 248, 202);
+}
+
+.color7 {
+    background-color: rgb(171, 142, 206);
+}
+
+.color8 {
+    background-color: rgb(213, 234, 115);
+}
+
+.color9 {
+    background-color: rgb(190, 199, 162);
+}
+
+.color10 {
+    background-color: rgb(194, 197, 42);
+}
+
+.letra {
+    font-size: 14px;
+    font-weight: bold;
+}
+.descripcion {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.tabla2 {
+    width: auto;
+    height: auto;
+    margin: auto;
+    background-color: rgb(43, 44, 36);
+    text-align: center;
+    font-size: 10px;
+}
+
+.tabla2 td {
+    width: 30px;
+    height: 30px;
+}
